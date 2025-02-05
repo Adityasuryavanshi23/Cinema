@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 import { Card } from "../components";
-import { useFetch, useTitle } from "../hooks/index";
+import { useDataFetch, useTitle } from "../hooks/index";
 
 export const MoviesList = ({ apiPath, title }) => {
-  const { data: movies } = useFetch(apiPath);
+  const { data: movies } = useDataFetch(apiPath);
   useTitle(title);
 
   return (

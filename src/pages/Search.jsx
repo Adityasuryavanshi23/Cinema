@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
 import { useSearchParams } from "react-router-dom";
 import { Card } from "../components";
-import { useTitle, useFetch } from "../hooks/index";
+import { useTitle, useDataFetch } from "../hooks/index";
 
 export const Search = ({ apiPath }) => {
   const [searchParams] = useSearchParams();
   const queryterm = searchParams.get("q");
-  const { data: movies } = useFetch(apiPath, queryterm);
+  const { data: movies } = useDataFetch(apiPath, queryterm);
 
   useTitle(`Result For "${queryterm}"`);
   return (
