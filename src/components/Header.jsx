@@ -213,7 +213,7 @@ export const Header = () => {
                   to="/"
                   className={({ isActive }) => (isActive ? active : inactive)}
                 >
-                  HOME
+                  Home
                 </NavLink>
               </li>
               <li>
@@ -221,7 +221,7 @@ export const Header = () => {
                   to="movies/popular"
                   className={({ isActive }) => (isActive ? active : inactive)}
                 >
-                  Popular
+                  POPULAR
                 </NavLink>
               </li>
               <li>
