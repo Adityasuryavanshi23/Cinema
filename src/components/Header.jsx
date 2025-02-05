@@ -221,7 +221,7 @@ export const Header = () => {
                   to="movies/popular"
                   className={({ isActive }) => (isActive ? active : inactive)}
                 >
-                  POPULAR
+                  Popular
                 </NavLink>
               </li>
               <li>
