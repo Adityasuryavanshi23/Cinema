@@ -41,7 +41,7 @@ export const Header = () => {
           >
             <img src={logo} className="h-10" alt="Flowbite Logo" />
             <span className="self-center  text-2xl  md:text-3xl font-semibold whitespace-nowrap dark:text-white">
-              CINENMATE
+              CineMate
             </span>
           </Link>
 
