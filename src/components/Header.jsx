@@ -41,7 +41,7 @@ export const Header = () => {
           >
             <img src={logo} className="h-10" alt="Flowbite Logo" />
             <span className="self-center  text-2xl  md:text-3xl font-semibold whitespace-nowrap dark:text-white">
-              CINEMATE
+              CineMate
             </span>
           </Link>
 
@@ -213,7 +213,7 @@ export const Header = () => {
                   to="/"
                   className={({ isActive }) => (isActive ? active : inactive)}
                 >
-                  Home
+                  HOME
                 </NavLink>
               </li>
               <li>
