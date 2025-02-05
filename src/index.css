@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url("../public/robots.txt");
+
+main {
+  max-width: 1280px;
+  min-height: 90vh;
+  margin: auto;
+}
+
+section {
+  padding: 10px;
+}
+
+li:hover {
+  color: white;
+  text-decoration: none;
+
+}
