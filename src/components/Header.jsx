@@ -32,7 +32,7 @@ export const Header = () => {
   };
 
   return (
-    <header>
+    <header className="sticky top-0">
       <nav className="bg-white  dark:bg-gray-900">
         <div className=" max-w-7xl container mx-auto border-b-2 border-gray-200   dark:border-gray-700 flex flex-wrap items-center justify-between  py-5 px-4">
           <Link
